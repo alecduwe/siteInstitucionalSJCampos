@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+html, body{
+    height: 100%;
+    
+}
+
+h2:hover{
+    cursor: pointer;
+}
+
+.clear{
+	clear: both;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+
+    background-image: url('https://wallpaperaccess.com/full/1260521.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+
+    border: 1px solid #ccc;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+
+    background-color: rgb(0, 58, 94);
+
+    margin-top: -5px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.header div{
+    
+    width: 20%;
+    margin: 0;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.header a{
+    color: #ccc;
+    outline: 0;
+    text-decoration: none; 
+}
+
+.header a:hover{
+    outline: 0;
+    text-decoration: none;
+}
+
+header .dropdown h2{
+    color: #ccc; 
+}
+
+.header div h2{
+    margin-top: 8px; 
+     
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .dropdown div{
+    border-right: 0;
+}
+
+.header .dropdown h2{
+    color:#ccc;
+}
+
+.header div:hover{
+    background-color: rgb(0, 92, 150);
+    cursor: pointer;
+}
+
+.header .dropdown .dropdown-content div:hover{
+    cursor: pointer;
+}
+
+.header .dropdown div{
+    width: 100%;
+    height: auto;
+}
+
+.header .dropdown span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    
+    color: white;  
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #03a0cf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border: 1px solid white;
+    border-radius: 0 0 10px 10px;
+    height: 100%;
+
+}
+
+.header .dropdown .dropdown-content div:hover{
+    background-color: rgb(0, 49, 80);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header .dropdown .dropdown-content div:hover{
+    background-color: rgb(0, 49, 80);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header .dropdown .dropdown-content p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .dropdown .dropdown-content p:hover{
+    outline: 0;
+    text-decoration: none;
+}
+
+.header .dropdown .dropdown-content .ale{
+    background-image: url('https://image.flaticon.com/icons/svg/197/197571.svg');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header .dropdown .dropdown-content .esp{
+    background-image: url('https://image.flaticon.com/icons/svg/197/197593.svg');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header .dropdown .dropdown-content .fra{
+    background-image: url('https://image.flaticon.com/icons/svg/197/197560.svg');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header .dropdown .dropdown-content .ing{
+    background-image: url('https://image.flaticon.com/icons/svg/197/197374.svg');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header .dropdown .dropdown-content .ita{
+    background-image: url('https://image.flaticon.com/icons/svg/197/197626.svg');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header .dropdown .dropdown-content .jap{
+    background-image: url('https://image.flaticon.com/icons/svg/197/197604.svg');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.dropdown-content div{
+    padding: 10px;
+}
+
+.dropdown-content a:first-of-type{
+    padding: 0;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown .dropdown-content p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.dropdown:hover .dropdown-content:hover{
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    padding: 10px;
+
+    background: linear-gradient(white, #D3D8E8);
+}
+
+main .descr .descr2{
+    margin-left: 20px;
+}
+
+main .descr h3:first-of-type{
+    font-size: 33px;
+    margin-top: 100px;
+    color: rgb(107, 107, 107);
+}
+
+main .descr ul{
+    list-style-position: inside;
+}
+
+main .descr ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: rgb(25, 159, 221);
+    font-weight: bold;
+}
+
+main .descr .descr2{
+    margin-bottom: 60px;
+}
+
+main .descr .descr2 h3:first-of-type{
+    font-size: 30px;
+    color: rgb(141, 141, 141);
+    margin-top: 40px;
+}
+
+main .descr .descr2 h3:nth-of-type(2){
+    font-size: 30px;
+    color: rgb(141, 141, 141);
+    margin-top: 40px;
+}
+
+main .descr .descr2 h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-family: 'Lora', serif;
+}
+
+main .descr .descr2 p:first-of-type{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(107, 107, 107);
+}
+
+main .descr .descr2 h3{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;   
+    color: rgb(25, 159, 221); 
+
+}
+
+main .descr .descr2 p{
+    color: rgb(107, 107, 107);
+}
+
+
+main .descr .descr2 .one{
+ color: rgb(0, 199, 0);
+ font-weight: bold;
+}
+
+
+main .descr .descr2 .two{
+    color: rgb(207, 207, 207);
+    font-weight: bold;
+}
+
+
+main .descr .descr2 .three{
+    color: red;
+    font-weight: bold;
+}
+
+/* BOTTOM BAR */
+
+.bar{
+    width: 100%;
+    height: 120px;
+
+    padding: 10px;
+
+    border-top: 3px solid #ccc;
+
+    background-color: rgb(0, 69, 126);
+}
+
+.bar {
+    width: 100%;
+    height: auto;
+}
+
+
+.bar h3{
+    color: white;
+    font-size: 18px;
+
+    padding: 0;
+}
+
+.bar span a{ 
+    color: rgb(0, 255, 106);
+}
+
+.bar p{
+    color: white;
+    opacity: 0.8;
+
+}
+
+.bar img{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.logoSP{
+    width:100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.logoSP img{
+    width: 18%;
+}
+
+@media screen and (max-width: 560px){
+    
+    .content{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .old{
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .news{
+        width: 100%;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 60px;
+    }
+
+    .header div h2{
+        font-size: 20px;
+        margin-top: 12px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #03a0cf;
+        min-width: 40px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        
+        z-index: 1;
+        border: 1px solid white;
+        border-radius: 0 0 10px 10px;
+        height: 100%;
+    
+    }
+
+    .dropdown-content div{
+        text-align: center;
+    }
+
+    .dropdown .dropdown-content p{
+        font-size: 80%;
+        color: black;
+        font-weight: bold;
+    }
+
+    .header .dropdown .dropdown-content .jap{
+        background: none;
+    }
+
+    .header .dropdown .dropdown-content .ale{
+        background: none;
+    }
+
+    .header .dropdown .dropdown-content .ing{
+        background: none;
+    }
+
+    .header .dropdown .dropdown-content .ita{
+        background: none;
+    }
+
+    .header .dropdown .dropdown-content .fra{
+        background: none;
+    }
+
+    .header .dropdown .dropdown-content .esp{
+        background: none;
+    }
+
+    .logoSP img{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .header div h2{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .galeria{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 290px;
+    }
+}
