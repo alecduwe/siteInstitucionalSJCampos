@@ -213,6 +213,7 @@ header.header-mobile ul{
     display: none;
     justify-content: space-around;
     background-color: rgb(240, 240, 240);
+    border: 1px solid black;
     position: absolute;
 
     width: 100%;
@@ -223,7 +224,7 @@ header.header-mobile ul{
 
     text-align: center;
 
-    animation-duration : 1s;
+    
 }
 
 header.header-mobile ul li{
@@ -323,6 +324,7 @@ header.header-mobile ul li a{
 
 }
 
+/*
 .foto{
     position: absolute;
     opacity: 0;
@@ -341,6 +343,7 @@ header.header-mobile ul li a{
     animation-delay: 10s;
 }
 
+/*
 @keyframes animacao{
     
     25%{
@@ -352,6 +355,7 @@ header.header-mobile ul li a{
         opacity: 0;
     }
 }
+*/
 
 .news{
     margin-top: 20px;
