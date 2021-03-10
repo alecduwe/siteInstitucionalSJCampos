@@ -198,9 +198,7 @@ header .dropdown h2{
     width: 100%;
 
     display: flex;
-    flex-direction: row-reverse;
-
-    padding: 1rem 2%;
+    flex-direction: column;
 
 }
 
